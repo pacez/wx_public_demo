@@ -1,0 +1,5 @@
+ul#nav-mobile.right.hide-on-med-and-down
+  -var menus=pageConfig.menus;
+  each item, i in menus
+    li(class="#{item.activeClass}")
+      a(href="/channel/#{item.name}") #{item.label}

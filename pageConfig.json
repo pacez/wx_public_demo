@@ -1,0 +1,10 @@
+{
+  "devMode": true,
+  "title":"微信测试页面",
+  "projectName":"微信测试页面",
+  "menus": [
+    {"name":"help","label":"众帮项目"},
+    {"name":"group","label":"圈子"},
+    {"name":"blog","label":"博客"}
+  ]
+}

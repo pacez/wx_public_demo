@@ -1,0 +1,53 @@
+body,html {
+  height: 100%;
+}
+
+.index-banner {
+  background: url("/images/index-bg.jpg") no-repeat center center;
+  background-size: 100% auto;
+  padding: 5rem;
+  width: 100%;
+  .index-banner-container {
+    max-width: 800px;
+    margin: 0 auto;
+    .index-action {
+      width: 24rem;
+      margin: 0 auto;
+      .btn-large {
+        margin: 0 1rem;
+        width: 10rem;
+        text-align: center;
+      }
+    }
+    .big-logo {
+  		background: url("/images/logo.png") no-repeat center center;
+      filter: invert(100%);
+  		background-size: 8rem 4rem;
+  		overflow: hidden;
+  		opacity: .9;
+      padding: 0 0 5rem;
+  		a {
+  			float: left;
+  			width: 8rem;
+  			height: 4rem;
+  			text-indent: -9999px;
+  		}
+    }
+  }
+}
+
+.intro {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  .index-menu {
+    padding: 0 0;
+    width: 36rem;
+    margin: 0 auto;
+    .btn-large {
+      margin: 0 1rem;
+      width: 10rem;
+      text-align: center;
+    }
+  }
+}

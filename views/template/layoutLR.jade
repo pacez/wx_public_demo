@@ -1,0 +1,22 @@
+doctype html
+html
+	include header
+	body
+		nav
+			.nav-wrapper.blue.darken-2
+				h1.logo 
+					a(href='/') #{pageConfig.projectName}
+				include menu
+		.content
+			.row.clearfix
+				.col.s2.m2.l2
+					block left
+				.col.s10.m10.l10
+					block content
+		footer.footer
+			i.mdi-communication-email.prefix
+			| &nbsp;
+			a(href="mailto:pace_zhong@foxmail.com") pace_zhong@foxmail.com
+		block dialogs
+
+		
