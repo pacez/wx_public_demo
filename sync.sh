@@ -1,3 +1,2 @@
 #!/bin/bash
-browser-sync start --proxy "localhost:3003" --files "**"
-
+browser-sync start --proxy "localhost:3000" --files "**"
