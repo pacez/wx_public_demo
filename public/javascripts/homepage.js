@@ -3,7 +3,6 @@ $(function(){
   $.get("/api/getWxConfig?url="+encodeURIComponent(location.href.split('#')[0]),function(config){
 
     wx.config(config);
-
     wx.ready(function(data){
       $("#trigger").click(function(){
         weui.actionSheet([
